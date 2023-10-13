@@ -7,6 +7,6 @@
 
 ***
 ### Лабораторна робота №4 (Варіант 7)
-Посилання на вітку [тут](github.com/max4vich/web-site-lab3/tree/lab4)
+Посилання на вітку [тут](https://github.com/max4vich/web-site-lab3/tree/lab4)
 
 ***
