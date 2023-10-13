@@ -12,6 +12,7 @@ const itemTemplate = ({ id, title, price, seats }) => `
             <h1 class="h1_pasted">${title}</h1>
             <h2 class="h2_pasted">Price: ${price}$</h2>
             <h2 class="h2_pasted">Seats quantity: ${seats}</h2>
+            <button class="edit_button" onclick="window.location.href='./edit.html?${id}'">Edit</button>
         </div>
 </li>`;
 
