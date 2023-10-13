@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>iGarage</title>
-        <link rel="stylesheet" href="css/create.css" />
+        <link rel="stylesheet" href="css/edit.css" />
 
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,28 +19,30 @@
     <body>
         <div class="container">
         <div class="row-title">
-            <h1>CREATE MODEL</h1>
+            <h1>EDIT MODEL</h1>
         </div>
 
-        <form id="create-form">
+        <form id="edit-form">
             <div class="name">
                 <label for="exampleInputEmail" class="form-label">Helicopter name</label>
                 <input type="text" class="form-control" id="title_input">
             </div>
             <div class="price">
                 <label for="exampleInputPassword1" class="form-label">Price</label>
-                <input type="number" class="form-control" id="price_input">
+                <input type="number" class="form-control" id="price_input" required min="0">
+                <!-- <input type="number" class="form-control" id="price_input"> -->
             </div>
             <div class="seats">
                 <label for="exampleInputPassword2" class="form-label">Seats quantity</label>
-                <input type="number" class="form-control" id="seats_input">
+                <input type="number" class="form-control" id="seats_input" required min="0">
+                <!-- <input type="number" class="form-control" id="seats_input"> -->
             </div>
             <button id="submit_button" type="submit" class="create_button">
-                CREATE
+                SAVE
             </button>
         </form>
 
-        <script type="module" src="js/create.js"></script>
+        <script type="module" src="js/edit.js"></script>
     </div>
     </body>
 

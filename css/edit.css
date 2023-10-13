@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-title h1 {
+    font-family: Rubik;
+}
+
+.row-title {
+    align-self: center;
+    padding-top: 160px;
+    padding-bottom: 50px;
+}
+
+#edit-form {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.seats {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.form-label {
+    font-family: Rubik;
+    font-size: 16px;
+}
+
+.form-control {
+    margin-top: 5px;
+    width: 500px;
+    border: 2px solid #000;
+    height: 30px;
+}
+
+.create_button {
+    width: 140px;
+    height: 58px;
+    border: 3px solid black;
+    border-radius: 20px;
+    align-self: center;
+    font-family: Rubik;
+    font-weight: 500;
+    color: #4E4F5A;
+    background-color: transparent;
+}
